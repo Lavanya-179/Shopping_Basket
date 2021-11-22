@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 800px;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.orders-wrapped {
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px;
+  padding: 10px 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.orders-wrapped table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+.orders-wrapped table td{
+  padding: 10px 15px;
+}
+.orders-wrapped table th {
+  padding: 10px 15px;
+}
+.orders-wrapped table .quantity input {
+  width: 45px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+.orders-wrapped table .quantity {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 170px;
+  justify-content: space-between;
+}
+.btn {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  vertical-align: middle;
+  border-radius: 4px;
+  min-width: 40px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.f-end {
+  justify-content: flex-end;
+}
+.decrement {
+  background-color: #f39c12
+}
+.increment {
+  background-color: #18bc9c;
+}
+.remove {
+  background-color: #e74c3c;
+}
+.pay {
+  background-color: #19bec8;
+  border-radius: 25px;
+}
+button:disabled {
+  opacity: .64
+}
+.bold {
+  font-weight: bold
 }
