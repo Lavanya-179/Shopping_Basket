@@ -8,7 +8,7 @@ Task 1: Project Set up
 
  Clone your OWN version of the repository in your terminal.
 
- CD into the project base directory cd ITV_Test.
+ CD into the project base directory cd Shopping_Basket.
 
  Download project dependencies by running npm install.
 
